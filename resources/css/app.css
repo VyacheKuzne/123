@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+/* main tag */
+.header{
+    @apply h-[150px] m-auto  items-center 
+}
+.main{
+    @apply m-auto 
+}
+/* конпки */
+.btn-green {
+    @apply bg-green text-white rounded-full  text-center w-full sm:w-full 2xl:w-2/4
+}
+.btn_green_h40 {
+    @apply h-[40px]
+}
+/* input */
+.input_searth{
+    @apply border bg-gray rounded-full border-gray w-full
+}
+.input_admin_user{
+    @apply border-2  rounded-full border-green w-full
+}
+.input_searth_h70{
+    @apply  h-[30px] sm:h-[50px] md:h-[70]
+}
+.input_searth_h63{
+    @apply h-[63px]
+}
+/* text */
+.text36_14{
+    @apply text-[14px] sm:text-[24px] md:text-[36px];
+}
+.text32_12{
+    @apply text-[12px] sm:text-[18px] md:text-[32px];
+}
+.text24_12{
+    @apply text-[12px] sm:text-[16px] md:text-[24px];
+}
+.text20_10{
+    @apply text-[8px] sm:text-[12px] md:text-[18px];
+}
+.text64_36{
+    @apply text-[36px] sm:text-[42px] md:text-[64px];
+}
+.text150_64{
+    @apply text-[64px] sm:text-[100px] md:text-[150px];
+}
+/* основной стиль для адаптации блока */
+.addaptive_style{
+    @apply w-[350px] sm:w-[550px] md:w-[700px] 2xl:w-[1920px] m-auto
+  }
+
+  .reviews{
+    @apply h-[140px] sm:h-[170px] md:h-[200px] 2xl:h-[230px]
+  }
+  
+}
